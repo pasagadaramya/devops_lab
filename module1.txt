@@ -1,0 +1,99 @@
+Ramya@ramya CLANGARM64 ~ (master)
+$ cd /c/Users/Ramya/devops_lab
+bash: cd: /c/Users/Ramya/devops_lab: No such file or directory
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ cd devops_lab
+bash: cd: devops_lab: No such file or directory
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/pasag/.git/
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ git config --global user.name "Ramya"
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ git config --global user.Email "pasagadaramya1223@gmail.com"
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ cd devops_lab
+bash: cd: devops_lab: No such file or directory
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ git clone https://github.com/pasagadaramya/devops_lab.git
+Cloning into 'devops_lab'...
+warning: You appear to have cloned an empty repository.
+
+Ramya@ramya CLANGARM64 ~ (master)
+$ cd devops_lab
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ touch sample.txt
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sample.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ git add .
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ git commit -m "added sample file into it"
+[main (root-commit) 3db3f7d] added sample file into it
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sample.txt
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ git remote -v
+origin  https://github.com/pasagadaramya/devops_lab.git (fetch)
+origin  https://github.com/pasagadaramya/devops_lab.git (push)
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 224 bytes | 224.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pasagadaramya/devops_lab.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ s
+bash: s: command not found
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ ls
+sample.txt
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ pwd
+/c/Users/pasag/devops_lab
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Ramya@ramya CLANGARM64 ~/devops_lab (main)
+$
